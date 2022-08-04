@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+#logo{
+   max-width: 50px;
+   max-height: 50px;
+}
+ul{
+    max-width: 1500px;
+}
+
+ul, li{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(120, 120, 242);
+    width: calc(1500/5);
+    padding-left: 30px;
+    
+    
+}
+.active:active{
+    background-color:white;
+    border: solid black;
+    border-radius: 10px;
+}
+
+    
+
+li:hover{
+    background-color:white;
+    border: solid black;
+    border-radius: 10px;
+    color: blue;
+    
+    
+}
+#background-pic{
+    background-image:url(/images/new-building-3284911.jpg);
+    height: 500px;
+    max-width: 3000px;
+    
+    background-size: contain;
+    
+    background-color: black;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+#fixedslide-1{
+    position: relative;
+    font-size: 100px;
+    color: rgb(24, 65, 149);
+    text-align: left;
+    z-index: 30;
+    padding-top: 60px;
+    padding-left: 20px;
+    
+}
+.auto-text{
+    color: rgb(3, 3, 43);
+    font-size: 80px;
+}
+ button{
+    border-radius: 40px;
+    padding: 20px;
+    justify-content: right;
+    margin-left: 20px;
+    color: rgb(3, 3, 43);
+    font-size: large;
+}
+button:hover{
+    color: rgb(17, 17, 133);
+    border-color: rgb(17, 17, 133);
+}
+i{
+    color: rgb(17, 17, 133);
+}
+h2{
+    font-size: 25px;
+   
+}
+
+.sec2{
+    background-color:black;
+    color: white;
+    
+}
+#section2{
+    border-style: solid white;
+    display: flex; 
+    height: 300px;
+    padding: 10px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.MVC{
+    padding: 30px;
+    letter-spacing: 1px;
+    background-color: rgb(7, 7, 148);
+    
+}
+
+p{
+    margin-top: 20px;
+}
+
+#section3{
+    padding-top: 30px;
+    background-image: url(/images/IMG-20220802-WA0068.jpg);
+    color: rgb(201, 237, 239);
+    
+}
+#projects{
+    width: 120px;
+    margin: auto;
+    border-style: solid;
+    margin-bottom: 10px;
+    justify-content: center;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#projectBox{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    background-size: 100%;
+    
+    
+    height: 100vh;
+}
+#footerlogo{
+    width: 12px;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    
+    
+    justify-content: space-around;
+    align-items: center;
+}
+.footerlist {
+    color: white;
+   
+    
+}
+#flinks a{
+    color: white;
+    text-decoration: none;
+}
+#flinks a:hover{
+    border: solid white;
+}
+#copyright{
+    color: white;
+    background-color: black;
+    margin-top: -20px;
+    font-size: small;
+    padding-top: 10px;
+    text-align: center;
+}
+#socials{
+    color: white;
+}

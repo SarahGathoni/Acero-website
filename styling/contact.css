@@ -1,0 +1,94 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    
+}
+#bgjpg{
+    background-image:url(/images/new-building-3284911.jpg);
+    height: 50vh;
+    max-width: 3000px;
+    
+    background-size: contain;
+    
+    background-color: black;
+    backdrop-filter: blur(2px);
+    display: flex;
+    
+    
+   
+    
+}
+h2{
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+p{
+  color: white;  
+  text-align: center;
+}
+#message1{
+    height: 70vh;
+    width: 500px;
+    border-style: solid;
+    margin: auto;
+    background-color:rgb(6, 21, 221);
+    margin-top: 30px;
+    
+    z-index: 30;
+    border-radius: 10px;
+    justify-content: center;
+    display: block;
+    align-items: center;
+    
+}
+
+
+input{
+padding: 15px;
+margin-top: 10px;
+}
+label{
+    color: white;
+}
+textarea{
+    width: 300px;
+}
+#contactbutton{
+    width: 150px;
+    height: 7vh;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+input, textarea, label{
+    margin-left: 10px;
+}
+#map{
+    width: 3000px;
+    margin: auto;
+    margin-left: 20px;
+    object-fit: contain;
+}
+iframe{
+    width: 3000px;
+    margin: auto;
+    margin-right: 20px; 
+    height: 100vh;
+}
+#mapmessage{
+    display: flex;
+    height:50vh;
+}
+#contactfooter{
+    margin-top: 280px;
+    
+    border-top: solid white;
+}
